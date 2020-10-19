@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="459104a6-e104-4d27-bbc4-0ab5039cb135" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1eFzNFGk2fvGGhWnMrNlEAdnbtm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ChatApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.edsoncamargo.chat.ChatApplication" />
+      <module name="chat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.edsoncamargo.chat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ChatApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="459104a6-e104-4d27-bbc4-0ab5039cb135" name="Default Changelist" comment="" />
+      <created>1593932086611</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593932086611</updated>
+      <workItem from="1593932094146" duration="185000" />
+      <workItem from="1593933217282" duration="133000" />
+      <workItem from="1594402108231" duration="4000" />
+      <workItem from="1594585226512" duration="6527000" />
+      <workItem from="1594653318015" duration="4000" />
+      <workItem from="1595979484625" duration="23000" />
+      <workItem from="1596234716178" duration="251000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1106" y="402" key="#Notifications" timestamp="1593933224849">
+      <screen x="-1920" y="0" width="1858" height="1080" />
+    </state>
+    <state x="-1106" y="402" key="#Notifications/0.0.1856.1080/-1920.0.1858.1080/1920.0.1218.720@-1920.0.1858.1080" timestamp="1593933224849" />
+    <state x="-1082" y="166" key="#Plugins" timestamp="1593932278198">
+      <screen x="-1920" y="0" width="1858" height="1080" />
+    </state>
+    <state x="-1082" y="166" key="#Plugins/0.0.1856.1080/-1920.0.1858.1080/1920.0.1218.720@-1920.0.1858.1080" timestamp="1593932278198" />
+    <state x="709" y="294" key="FileChooserDialogImpl" timestamp="1596234963498">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="-1211" y="294" key="FileChooserDialogImpl/0.0.1856.1080/-1920.0.1858.1080/1920.0.1218.720@-1920.0.1858.1080" timestamp="1593933276455" />
+    <state x="709" y="294" key="FileChooserDialogImpl/0.0.1858.1080/-3840.0.1218.720/-1920.0.1858.1080@0.0.1858.1080" timestamp="1596234963498" />
+    <state width="907" height="295" key="GridCell.Tab.0.bottom" timestamp="1593933350875">
+      <screen x="-1920" y="0" width="1858" height="1080" />
+    </state>
+    <state width="907" height="295" key="GridCell.Tab.0.bottom/0.0.1856.1080/-1920.0.1858.1080/1920.0.1218.720@-1920.0.1858.1080" timestamp="1593933350875" />
+    <state width="907" height="295" key="GridCell.Tab.0.center" timestamp="1593933350875">
+      <screen x="-1920" y="0" width="1858" height="1080" />
+    </state>
+    <state width="907" height="295" key="GridCell.Tab.0.center/0.0.1856.1080/-1920.0.1858.1080/1920.0.1218.720@-1920.0.1858.1080" timestamp="1593933350875" />
+    <state width="907" height="295" key="GridCell.Tab.0.left" timestamp="1593933350875">
+      <screen x="-1920" y="0" width="1858" height="1080" />
+    </state>
+    <state width="907" height="295" key="GridCell.Tab.0.left/0.0.1856.1080/-1920.0.1858.1080/1920.0.1218.720@-1920.0.1858.1080" timestamp="1593933350875" />
+    <state width="907" height="295" key="GridCell.Tab.0.right" timestamp="1593933350875">
+      <screen x="-1920" y="0" width="1858" height="1080" />
+    </state>
+    <state width="907" height="295" key="GridCell.Tab.0.right/0.0.1856.1080/-1920.0.1858.1080/1920.0.1218.720@-1920.0.1858.1080" timestamp="1593933350875" />
+    <state x="-1511" y="114" key="SettingsEditor" timestamp="1593933303445">
+      <screen x="-1920" y="0" width="1858" height="1080" />
+    </state>
+    <state x="-1511" y="114" key="SettingsEditor/0.0.1856.1080/-1920.0.1858.1080/1920.0.1218.720@-1920.0.1858.1080" timestamp="1593933303445" />
+    <state x="573" y="160" key="new project wizard" timestamp="1596234965833">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="573" y="160" key="new project wizard/0.0.1858.1080/-3840.0.1218.720/-1920.0.1858.1080@0.0.1858.1080" timestamp="1596234965833" />
+  </component>
+</project>

@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="container-steps">
+        <div *ngIf="hasName !== true; else hasNameRef" class="container-user card">
+            <h1>Type your name</h1>
+            <input [formControl]="nameControl" type="text" placeholder="Type a name">
+            <button (click)="continueToCreateSession()">CONTINUE <img
+                    src="../../assets/images/svg/arrow-circle-right-solid.svg" alt=""></button>
+        </div>
+        <ng-template #hasNameRef>
+            <div class="container-create-session card">
+                <h1>Create a session</h1>
+                <div class="actions">
+                    <button class="mbt-10" *ngIf="session === ''" (click)="generateSession()">GENERATE A
+                        SESSION</button>
+                    <button class="mbt-10" (click)="enterSession()">ENTER SESSION</button>
+                </div>
+                <input class="enter-input" *ngIf="isEnterSessionClicked() === true" [formControl]="enterSessionControl"
+                    type="text" placeholder="Type a session">
+                <span *ngIf="session !== ''">Copy and send to your friend - <span id="session"
+                        (click)="copyCurrentSession()" class="pointer">{{ session }}</span></span>
+                <button class="mbt-10" (click)="getEnterSessionControlValues()">
+                    GO TO A SESSION {{ session }}<img src="../../assets/images/svg/arrow-circle-right-solid.svg"
+                        alt=""></button>
+            </div>
+        </ng-template>
+    </div>
+</div>
+
+<ngx-alerts></ngx-alerts>

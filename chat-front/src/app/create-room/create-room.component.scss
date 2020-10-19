@@ -1,0 +1,49 @@
+.container {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    background: #000;
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        background-color: #292626;
+        border-radius: 15px;
+
+        button {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+            font-weight: bold;
+            cursor: pointer;
+
+            img {
+                position: absolute;
+                right: 0;
+                width: 18px;
+                margin-right: 10px;
+            }
+        }
+
+        .actions {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+    }
+}
+
+.enter-input {
+    margin-bottom: 5px;
+}
+
+.mbt-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

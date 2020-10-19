@@ -1,0 +1,45 @@
+<div class="container">
+    <div class="container-chat">
+        <div class="header">
+            <h1>Session {{ session }}</h1>
+        </div>
+        <div class="chat" id="chat">
+            <div class="connecting" id="connecting"><span id="connectingMessage"></span></div>
+            <div class="messages" *ngFor="let message of messages">
+                <ng-container *ngIf="message.type === MessageType; else user">
+                    <div class="container-you">
+                        <div *ngIf="message.senderId === id; else receiver" class="you">
+                            <span>{{ message.message }}</span>
+                            <small>{{ message.date }}</small>
+                        </div>
+                    </div>
+                    <ng-template #receiver>
+                        <div class="container-receiver">
+                            <div class="receiver">
+                                <div class="avatar" [ngStyle]="color">{{ message.name }}</div>
+                                <span>{{ message.message }}</span>
+                                <small>{{ message.date }}</small>
+                            </div>
+                        </div>
+                    </ng-template>
+                </ng-container>
+                <ng-template #user>
+                    <div *ngIf="message.id !== id && message.entered === true" class="entered">
+                        <span>{{ message.name }}
+                            entrou.</span></div>
+                    <div *ngIf="message.entered === false" class="entered">
+                        <span>{{ message.name }}
+                            saiu.</span></div>
+                </ng-template>
+            </div>
+        </div>
+        <div class="form">
+            <div class="writer-container">
+                <input (keyup.enter)="handleButtonSendMessage()" [formControl]="message" type="text"
+                    placeholder="Type a message">
+                <button (click)="handleButtonSendMessage()">
+                    SEND</button>
+            </div>
+        </div>
+    </div>
+</div>
